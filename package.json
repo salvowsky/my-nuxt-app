@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "@inkline/inkline": "^3.0.7",
+    "@inkline/nuxt": "^3.0.2"
+  }
+}
